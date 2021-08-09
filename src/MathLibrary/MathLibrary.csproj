@@ -2,10 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.0.0</Version>
     <RepositoryUrl>https://github.com/JanneMattila/nuget-package-demo</RepositoryUrl>
     <PackageProjectUrl>https://github.com/JanneMattila/nuget-package-demo</PackageProjectUrl>
     <Description>This is NuGet publish demo project.</Description>
+    <PackageId>JanneMattila.Demos.MathLibrary</PackageId>
+    <Authors>Janne Mattila</Authors>
+    <Company>Janne Mattila</Company>
+    <Product>MathLibrary NuGet package demo</Product>
   </PropertyGroup>
 
 </Project>
