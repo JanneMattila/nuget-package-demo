@@ -28,6 +28,7 @@ jobs:
     - name: Create NuGet packages
       run: |
         VERSION=$(echo "${{ github.event.release.tag_name }}" | cut -c2-)
+        echo $VERSION
         dotnet pack --no-build --configuration Release -p:Version=$VERSION
     - name: Publish NuGet packages
       run: dotnet nuget push "**/*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate
