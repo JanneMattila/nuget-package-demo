@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.0</Version>
+    <RepositoryUrl>https://github.com/JanneMattila/nuget-package-demo</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/JanneMattila/nuget-package-demo</PackageProjectUrl>
+    <Description>This is NuGet publish demo project.</Description>
   </PropertyGroup>
 
 </Project>
