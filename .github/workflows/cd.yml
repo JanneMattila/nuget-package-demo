@@ -3,6 +3,7 @@ name: CD
 on:
   release:
     types:
+      - edited
       - released
 
 jobs:
